@@ -124,7 +124,6 @@ int main() {
     add_highway(&map_data, 7, 8);
     add_highway(&map_data, 8, 9);
         
-    // Thực hiện tìm kiếm đúng các cặp điểm cũ
     execute_dijkstra(&map_data, 0, 6); 
     execute_dijkstra(&map_data, 2, 5); 
     execute_dijkstra(&map_data, 4, 9); 
